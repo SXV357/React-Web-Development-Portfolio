@@ -1,13 +1,11 @@
 import React from "react";
 import profile from "../Images/new-profile-pic.jpg";
 import developer from "../Images/undraw_web_developer_re_h7ie.svg";
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
-import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
-import { faGithub } from "@fortawesome/free-brands-svg-icons";
-import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
-import { faFilePdf } from "@fortawesome/free-solid-svg-icons";
+import "@fortawesome/fontawesome-free/css/all.min.css";
+import { Link, useHref } from "react-router-dom";
 
 export default function AboutMe() {
+  const href = useHref("/contactform");
   return (
     <section id="about-me">
       <nav>
@@ -24,12 +22,12 @@ export default function AboutMe() {
             </a>
           </li>
           <li id="contact-btn" class="link">
-            <a
-              href="form.html"
+            <Link
+              to= {href}
               class="navigation_list--anchor navigation_list--anchor--main link-hover-contact"
             >
               Contact
-            </a>
+            </Link>
           </li>
         </ul>
       </nav>
@@ -59,7 +57,8 @@ export default function AboutMe() {
                 href="https://www.linkedin.com/in/shrevis/"
                 class="about_me--social-link"
               >
-                <FontAwesomeIcon icon={faLinkedinIn} />
+                {/* <FontAwesomeIcon icon={brands("linkedin")} color={"black"} /> */}
+                <i class="fa-brands fa-linkedin-in"></i>
               </a>
               <a
                 target="_blank"
@@ -67,10 +66,10 @@ export default function AboutMe() {
                 href="https://github.com/SXV357"
                 class="about_me--social-link"
               >
-                <FontAwesomeIcon icon={faGithub} />
+                <i class="fa-brands fa-github"></i>
               </a>
-              <a href="form.html" class="about_me--social-link">
-                <FontAwesomeIcon icon={faEnvelope} />
+              <a href="#somelink" class="about_me--social-link">
+                <i class="fa-solid fa-envelope"></i>
               </a>
               <a
                 target="_blank"
@@ -78,7 +77,7 @@ export default function AboutMe() {
                 href="https://drive.google.com/file/d/1Bo3AtKXjQs8blmLdhqJ4we9T3_do7zFq/view?usp=sharing"
                 class="about_me--social-link"
               >
-                <FontAwesomeIcon icon={faFilePdf} />
+                <i class="fa-solid fa-file-pdf"></i>
               </a>
             </div>
           </div>
