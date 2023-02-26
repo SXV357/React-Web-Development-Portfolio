@@ -3,7 +3,6 @@ import meme from "../Images/MemeGen.png";
 import tenzies from "../Images/Tenzies.png";
 import quote from "../Images/QuoteGen.png";
 import quiz from "../Images/Quizzical.png";
-import '@fortawesome/fontawesome-free/css/all.min.css';
 
 export default function Projects() {
   return (
@@ -51,7 +50,9 @@ export default function Projects() {
               <div className="project-wrapper">
                 <img className="project_image_1" src={quote} />
                 <div className="project_description">
-                  <h3 className="project_description--title2">Quote Generator</h3>
+                  <h3 className="project_description--title2">
+                    Quote Generator
+                  </h3>
                   <h4 className="project_description--subtitle2">React</h4>
                   <p className="project_description--paragraph2">
                     A quote generator made using React that fetches quotes from

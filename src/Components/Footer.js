@@ -31,7 +31,10 @@ export default function Footer() {
           >
             Linkedln
           </a>
-          <a className="footer-social-link link-hover-white" href="#somelink">
+          <a
+            className="footer-social-link link-hover-white"
+            href="mailto:shrevis2018@gmail.com"
+          >
             Email
           </a>
           <a
@@ -42,7 +45,9 @@ export default function Footer() {
             Resume
           </a>
         </div>
-        <div className="footer_copyright">Copyright © 2022 Shreyas Viswanathan</div>
+        <div className="footer_copyright">
+          Copyright © 2023 Shreyas Viswanathan
+        </div>
       </div>
     </footer>
   );
