@@ -1,6 +1,7 @@
 import React from "react";
 import profile from "../Images/new-profile-pic.jpg";
 import developer from "../Images/undraw_web_developer_re_h7ie.svg";
+import "@fortawesome/fontawesome-free/css/all.min.css";
 
 export default function AboutMe() {
   return (
