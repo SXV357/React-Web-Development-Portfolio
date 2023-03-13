@@ -191,8 +191,22 @@ nav {
   }
 }
 .about_me--title {
-  animation: fade 650ms 420ms backwards;
+  overflow: hidden;
+  white-space: nowrap;
+  width: 0;
+  animation: typing 4s linear 1s 1 normal both,
+    animated-cursor 600ms linear infinite;
 }
+
+@keyframes typing {
+  from {
+    width: 0;
+  }
+  to {
+    width: 100%;
+  }
+}
+
 .about_me--info-paragraph {
   animation: fade 650ms 620ms backwards;
   font-size: 1.2rem;

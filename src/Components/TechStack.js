@@ -1,4 +1,9 @@
 import React from "react";
+import css from "../Images/CSS.png";
+import html from "../Images/HTML.png";
+import js from "../Images/JS.png";
+import jsx from "../Images/JSX.png";
+import typescript from "../Images/Typescript.png";
 
 export default function TechStack() {
   return (
@@ -11,39 +16,33 @@ export default function TechStack() {
           <div className="languages">
             <div className="language">
               <figure className="lang_image-wrapper">
-                <img
-                  className="img-1"
-                  src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/38/HTML5_Badge.svg/240px-HTML5_Badge.svg.png"
-                />
+                <img className="img-1" src={html} alt="HTML Logo" />
               </figure>
               <span className="language_name">HTML</span>
             </div>
             <div className="language">
               <figure className="lang_image-wrapper">
-                <img
-                  className="img-1"
-                  src="https://cdn.iconscout.com/icon/free/png-256/css-131-722685.png"
-                />
+                <img className="img-1" src={css} alt="CSS Logo" />
               </figure>
               <span className="language_name">CSS</span>
             </div>
             <div className="language">
               <figure className="lang_image-wrapper">
-                <img
-                  className="img-1"
-                  src="https://logos-download.com/wp-content/uploads/2019/01/JavaScript_Logo.png"
-                />
+                <img className="img-1" src={js} alt="Javascript Logo" />
               </figure>
               <span className="language_name">JS</span>
             </div>
             <div className="language">
               <figure className="lang_image-wrapper">
-                <img
-                  className="img-1"
-                  src="https://th.bing.com/th/id/R.f81a6f373c244b1f70f4b7402b5ab372?rik=rbXh4ieLuKt%2bmA&riu=http%3a%2f%2flogos-download.com%2fwp-content%2fuploads%2f2016%2f09%2fReact_logo_logotype_emblem.png&ehk=QhGOkKcUKCU7FBQgHOajOiJqJBACUTD2Ni6LsfqzCEA%3d&risl=&pid=ImgRaw&r=0"
-                />
+                <img className="img-1" src={jsx} alt="React Logo" />
               </figure>
               <span className="language_name">React</span>
+            </div>
+            <div className="language">
+              <figure className="lang_image-wrapper">
+                <img className="img-1" src={typescript} alt="Typescript Logo" />
+              </figure>
+              <span className="language_name">Typescript</span>
             </div>
           </div>
         </div>

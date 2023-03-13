@@ -7,7 +7,7 @@ export default function Footer() {
       <div className="row footer_row">
         <a href="#about-me" className="footer-anchor">
           <figure className="footer-logo">
-            <img className="footer-img" src={logo} />
+            <img className="footer-img" src={logo} alt="Website Logo" />
           </figure>
           <span className="footer-logo-popup">
             Top

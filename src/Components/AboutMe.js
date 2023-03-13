@@ -36,7 +36,11 @@ export default function AboutMe() {
         <div className="about_me--info row">
           <div className="about_me--info--container">
             <figure className="about_me--picture">
-              <img src={profile} className="about_me--img" />
+              <img
+                src={profile}
+                className="about_me--img"
+                alt="Profile Picture"
+              />
             </figure>
             <h1 className="about_me--title">
               Hey! I'm{" "}

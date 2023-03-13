@@ -15,7 +15,11 @@ export default function Projects() {
           <ul className="project_list">
             <li className="project">
               <div className="project-wrapper">
-                <img className="project_image_1" src={meme} />
+                <img
+                  className="project_image_1"
+                  src={meme}
+                  alt="Meme Generator"
+                />
                 <div className="project_description">
                   <h3 className="project_description--title">Meme Generator</h3>
                   <h4 className="project_description--subtitle">React</h4>
@@ -48,7 +52,11 @@ export default function Projects() {
             </li>
             <li className="project">
               <div className="project-wrapper">
-                <img className="project_image_1" src={quote} />
+                <img
+                  className="project_image_1"
+                  src={quote}
+                  alt="Quote Generator"
+                />
                 <div className="project_description">
                   <h3 className="project_description--title2">
                     Quote Generator
@@ -82,7 +90,7 @@ export default function Projects() {
             </li>
             <li className="project">
               <div className="project-wrapper">
-                <img className="project_image_1" src={tenzies} />
+                <img className="project_image_1" src={tenzies} alt="Tenzies" />
                 <div className="project_description">
                   <h3 className="project_description--title3">Tenzies</h3>
                   <h4 className="project_description--subtitle3">React</h4>
@@ -117,7 +125,7 @@ export default function Projects() {
 
             <li className="project">
               <div className="project-wrapper">
-                <img className="project_image_1" src={quiz} />
+                <img className="project_image_1" src={quiz} alt="Quizzical" />
                 <div className="project_description">
                   <h3 className="project_description--title4">Quizzical</h3>
                   <h4 className="project_description--subtitle4">React</h4>
