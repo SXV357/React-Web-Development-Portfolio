@@ -1,7 +1,11 @@
 import React from "react";
 import profile from "../Images/new-profile-pic.jpg";
 import developer from "../Images/undraw_web_developer_re_h7ie.svg";
-import "@fortawesome/fontawesome-free/css/all.min.css";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faLinkedinIn } from "@fortawesome/free-brands-svg-icons";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faEnvelope } from "@fortawesome/free-solid-svg-icons";
+import { faFilePdf } from "@fortawesome/free-regular-svg-icons";
 
 export default function AboutMe() {
   return (
@@ -64,7 +68,7 @@ export default function AboutMe() {
                 href="https://www.linkedin.com/in/shrevis/"
                 className="about_me--social-link"
               >
-                <i className="fa-brands fa-linkedin-in"></i>
+                <FontAwesomeIcon icon={faLinkedinIn} />
               </a>
               <a
                 target="_blank"
@@ -72,13 +76,13 @@ export default function AboutMe() {
                 href="https://github.com/SXV357"
                 className="about_me--social-link"
               >
-                <i className="fa-brands fa-github"></i>
+                <FontAwesomeIcon icon={faGithub} />
               </a>
               <a
                 href="mailto:shrevis2018@gmail.com"
                 className="about_me--social-link"
               >
-                <i className="fa-solid fa-envelope"></i>
+                <FontAwesomeIcon icon={faEnvelope} />
               </a>
               <a
                 target="_blank"
@@ -86,7 +90,7 @@ export default function AboutMe() {
                 href="https://drive.google.com/file/d/1Bo3AtKXjQs8blmLdhqJ4we9T3_do7zFq/view?usp=sharing"
                 className="about_me--social-link"
               >
-                <i className="fa-solid fa-file-pdf"></i>
+                <FontAwesomeIcon icon={faFilePdf} />
               </a>
             </div>
           </div>
