@@ -3,6 +3,9 @@ import meme from "../Images/MemeGen.png";
 import tenzies from "../Images/Tenzies.png";
 import quote from "../Images/QuoteGen.png";
 import quiz from "../Images/Quizzical.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faGithub } from "@fortawesome/free-brands-svg-icons";
+import { faLink } from "@fortawesome/free-solid-svg-icons";
 
 export default function Projects() {
   return (
@@ -36,7 +39,7 @@ export default function Projects() {
                       href="https://github.com/SXV357/Meme-Generator----Scrimba-Learn-React"
                       className="project_description--link"
                     >
-                      <i className="fa-brands fa-github"></i>
+                      <FontAwesomeIcon icon={faGithub} />
                     </a>
                     <a
                       target="_blank"
@@ -44,7 +47,7 @@ export default function Projects() {
                       href="https://react-memegen.herokuapp.com/"
                       className="project_description--link"
                     >
-                      <i className="fa-solid fa-link"></i>
+                      <FontAwesomeIcon icon={faLink} />
                     </a>
                   </div>
                 </div>
@@ -74,7 +77,7 @@ export default function Projects() {
                       href="https://github.com/SXV357/Quote-Generator"
                       className="project_description--link2"
                     >
-                      <i className="fa-brands fa-github"></i>
+                      <FontAwesomeIcon icon={faGithub} />
                     </a>
                     <a
                       target="_blank"
@@ -82,7 +85,7 @@ export default function Projects() {
                       href="https://react-qgen.herokuapp.com/"
                       className="project_description--link2"
                     >
-                      <i className="fa-solid fa-link"></i>
+                      <FontAwesomeIcon icon={faLink} />
                     </a>
                   </div>
                 </div>
@@ -108,7 +111,7 @@ export default function Projects() {
                       href="https://github.com/SXV357/Tenzies----Scrimba-Learn-React-Capstone-Project"
                       className="project_description--link3"
                     >
-                      <i className="fa-brands fa-github"></i>
+                      <FontAwesomeIcon icon={faGithub} />
                     </a>
                     <a
                       target="_blank"
@@ -116,7 +119,7 @@ export default function Projects() {
                       href="https://react-tenzies-game-olive.vercel.app/"
                       className="project_description--link3"
                     >
-                      <i className="fa-solid fa-link"></i>
+                      <FontAwesomeIcon icon={faLink} />
                     </a>
                   </div>
                 </div>
@@ -142,7 +145,7 @@ export default function Projects() {
                       href="https://github.com/SXV357/Quizzical----Scrimba-Learn-React-Final_Project"
                       className="project_description--link4"
                     >
-                      <i className="fa-brands fa-github"></i>
+                      <FontAwesomeIcon icon={faGithub} />
                     </a>
                     <a
                       target="_blank"
@@ -150,7 +153,7 @@ export default function Projects() {
                       href="https://quizzical-scrimba-learn-react-final-project.vercel.app/"
                       className="project_description--link4"
                     >
-                      <i className="fa-solid fa-link"></i>
+                      <FontAwesomeIcon icon={faLink} />
                     </a>
                   </div>
                 </div>
