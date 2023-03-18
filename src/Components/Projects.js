@@ -3,6 +3,7 @@ import meme from "../Images/MemeGen.png";
 import tenzies from "../Images/Tenzies.png";
 import quote from "../Images/QuoteGen.png";
 import quiz from "../Images/Quizzical.png";
+import notesApp from "../Images/NotesApp.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
@@ -57,24 +58,26 @@ export default function Projects() {
               <div className="project-wrapper">
                 <img
                   className="project_image_1"
-                  src={quote}
-                  alt="Quote Generator"
+                  src={notesApp}
+                  alt="Notes App"
                 />
                 <div className="project_description">
                   <h3 className="project_description--title2">
-                    Quote Generator
+                    Markdown Notes App
                   </h3>
                   <h4 className="project_description--subtitle2">React</h4>
                   <p className="project_description--paragraph2">
-                    A quote generator made using React that fetches quotes from
-                    a random quote API and displays them alongside the author
-                    for the user to view.
+                    A notes app powered by React Markdown that allows the user
+                    to access basic word formatting features, including the
+                    ability to add images and quotes. The user also has the
+                    ability to switch views at any time, from the editing mode
+                    to the preview mode and vice-versa.
                   </p>
                   <div className="project_description--links2">
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://github.com/SXV357/Quote-Generator"
+                      href="https://github.com/SXV357/Notes-App---Scrimba-Learn-React-Capstone-Project"
                       className="project_description--link2"
                     >
                       <FontAwesomeIcon icon={faGithub} />
