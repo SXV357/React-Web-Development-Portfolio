@@ -85,7 +85,7 @@ export default function Projects() {
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://react-qgen.herokuapp.com/"
+                      href="https://react-markdown-notes-app-scrimba-learn-react-capstone-project.vercel.app"
                       className="project_description--link2"
                     >
                       <FontAwesomeIcon icon={faLink} />
