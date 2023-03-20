@@ -43,7 +43,6 @@ export default function AboutMe() {
               <img
                 src={profile}
                 className="about_me--img"
-                alt="Profile Picture"
               />
             </figure>
             <h1 className="about_me--title">
@@ -87,7 +86,7 @@ export default function AboutMe() {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://drive.google.com/file/d/1Bo3AtKXjQs8blmLdhqJ4we9T3_do7zFq/view?usp=sharing"
+                href="https://drive.google.com/file/d/1qo73fXQq-JbqHTdxGtqRS2Wy-wXU0UqW/view?usp=share_link"
                 className="about_me--social-link"
               >
                 <FontAwesomeIcon icon={faFilePdf} />
@@ -98,7 +97,6 @@ export default function AboutMe() {
             <img
               src={developer}
               className="about_me-img-1"
-              alt="Work representation"
             />
           </figure>
         </div>

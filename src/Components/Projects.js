@@ -1,7 +1,6 @@
 import React from "react";
 import meme from "../Images/MemeGen.png";
 import tenzies from "../Images/Tenzies.png";
-import quote from "../Images/QuoteGen.png";
 import quiz from "../Images/Quizzical.png";
 import notesApp from "../Images/NotesApp.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";

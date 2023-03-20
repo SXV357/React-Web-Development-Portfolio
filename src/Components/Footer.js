@@ -39,7 +39,7 @@ export default function Footer() {
           </a>
           <a
             className="footer-social-link link-hover-white"
-            href="https://drive.google.com/file/d/1Bo3AtKXjQs8blmLdhqJ4we9T3_do7zFq/view?usp=sharing"
+            href="https://drive.google.com/file/d/1qo73fXQq-JbqHTdxGtqRS2Wy-wXU0UqW/view?usp=share_link"
             download
           >
             Resume
