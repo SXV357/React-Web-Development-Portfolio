@@ -1,8 +1,8 @@
 import React from "react";
-import meme from "../Images/MemeGen.png";
 import tenzies from "../Images/Tenzies.png";
 import quiz from "../Images/Quizzical.png";
 import notesApp from "../Images/NotesApp.png";
+import TicTacToe from "../Images/TicTacToe.png";
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faGithub } from "@fortawesome/free-brands-svg-icons";
 import { faLink } from "@fortawesome/free-solid-svg-icons";
@@ -20,23 +20,25 @@ export default function Projects() {
               <div className="project-wrapper">
                 <img
                   className="project_image_1"
-                  src={meme}
+                  src={TicTacToe}
                   alt="Meme Generator"
                 />
                 <div className="project_description">
-                  <h3 className="project_description--title">Meme Generator</h3>
+                  <h3 className="project_description--title">Tic Tac Toe</h3>
                   <h4 className="project_description--subtitle">React</h4>
                   <p className="project_description--paragraph">
-                    This application fetches memes from an API containing the
-                    top 100 memes. Users have the ability to type into the form
-                    fields and customize the text that they see on the top and
-                    the bottom of the meme image.
+                    This application is a modified version of Tic Tac Toe where
+                    the user is able to travel in time to either view the moves
+                    that they made in the past, or the moves that they made in
+                    the future. This project will soon be updated with
+                    functionalities such as viewing exact move locations, being
+                    able to sort them, and winning squares being highlighted.
                   </p>
                   <div className="project_description--links">
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://github.com/SXV357/Meme-Generator----Scrimba-Learn-React"
+                      href="https://github.com/SXV357/React-Tic-Tac-Toe"
                       className="project_description--link"
                     >
                       <FontAwesomeIcon icon={faGithub} />
@@ -44,7 +46,7 @@ export default function Projects() {
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://react-memegen.herokuapp.com/"
+                      href="https://react-tic-tac-toe-8xlp-qfosydh8c-shrevis2018-gmailcom.vercel.app/"
                       className="project_description--link"
                     >
                       <FontAwesomeIcon icon={faLink} />
@@ -76,7 +78,7 @@ export default function Projects() {
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://github.com/SXV357/Notes-App---Scrimba-Learn-React-Capstone-Project"
+                      href="https://github.com/SXV357/React-Markdown-Notes-App---Scrimba-Learn-React-Capstone-Project"
                       className="project_description--link2"
                     >
                       <FontAwesomeIcon icon={faGithub} />
@@ -118,7 +120,7 @@ export default function Projects() {
                     <a
                       target="_blank"
                       rel="noreferrer"
-                      href="https://react-tenzies-game-olive.vercel.app/"
+                      href="https://react-tenzies-game-23ouls8up-shrevis2018-gmailcom.vercel.app/"
                       className="project_description--link3"
                     >
                       <FontAwesomeIcon icon={faLink} />
