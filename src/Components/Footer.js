@@ -33,13 +33,13 @@ export default function Footer() {
           </a>
           <a
             className="footer-social-link link-hover-white"
-            href="mailto:shrevis2018@gmail.com"
+            href="mailto:shreyasviswanathan1@gmail.com"
           >
             Email
           </a>
           <a
             className="footer-social-link link-hover-white"
-            href="https://drive.google.com/file/d/1qo73fXQq-JbqHTdxGtqRS2Wy-wXU0UqW/view?usp=share_link"
+            href="https://drive.google.com/file/d/1_Qaf4p9jlVYzEFA4lYgvgIFdfvG2_XJQ/view?usp=sharing"
             download
           >
             Resume

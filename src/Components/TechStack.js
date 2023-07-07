@@ -30,7 +30,7 @@ export default function TechStack() {
               <figure className="lang_image-wrapper">
                 <img className="img-1" src={js} alt="Javascript Logo" />
               </figure>
-              <span className="language_name">JS</span>
+              <span className="language_name">Javascript</span>
             </div>
             <div className="language">
               <figure className="lang_image-wrapper">

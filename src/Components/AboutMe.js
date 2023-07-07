@@ -43,6 +43,7 @@ export default function AboutMe() {
               <img
                 src={profile}
                 className="about_me--img"
+                alt = ""
               />
             </figure>
             <h1 className="about_me--title">
@@ -78,7 +79,7 @@ export default function AboutMe() {
                 <FontAwesomeIcon icon={faGithub} />
               </a>
               <a
-                href="mailto:shrevis2018@gmail.com"
+                href="mailto:shreyasviswanathan1@gmail.com"
                 className="about_me--social-link"
               >
                 <FontAwesomeIcon icon={faEnvelope} />
@@ -86,7 +87,7 @@ export default function AboutMe() {
               <a
                 target="_blank"
                 rel="noreferrer"
-                href="https://drive.google.com/file/d/1qo73fXQq-JbqHTdxGtqRS2Wy-wXU0UqW/view?usp=share_link"
+                href="https://drive.google.com/file/d/1_Qaf4p9jlVYzEFA4lYgvgIFdfvG2_XJQ/view?usp=sharing"
                 className="about_me--social-link"
               >
                 <FontAwesomeIcon icon={faFilePdf} />
@@ -97,6 +98,7 @@ export default function AboutMe() {
             <img
               src={developer}
               className="about_me-img-1"
+              alt = ""
             />
           </figure>
         </div>
