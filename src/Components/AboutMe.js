@@ -28,7 +28,7 @@ export default function AboutMe() {
           </li>
           <li id="contact-btn" className="link">
             <a
-              href="mailto:shrevis2018@gmail.com"
+              href="mailto:shreyasviswanathan1@gmail.com"
               className="navigation_list--anchor navigation_list--anchor--main link-hover-contact"
             >
               Contact

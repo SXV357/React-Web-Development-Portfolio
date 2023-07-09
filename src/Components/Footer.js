@@ -1,5 +1,7 @@
 import React from "react";
 import logo from "../Images/Website Logo.png";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+import { faArrowUp } from "@fortawesome/free-solid-svg-icons";
 
 export default function Footer() {
   return (
@@ -10,8 +12,8 @@ export default function Footer() {
             <img className="footer-img" src={logo} alt="Website Logo" />
           </figure>
           <span className="footer-logo-popup">
-            Top
-            <i className="fa-solid fa-arrow-up"></i>
+            <div>Top</div>
+            <FontAwesomeIcon icon = {faArrowUp} />
           </span>
         </a>
         <div className="footer_social-links">
@@ -39,6 +41,8 @@ export default function Footer() {
           </a>
           <a
             className="footer-social-link link-hover-white"
+            target = "_blank"
+            rel = "noreferrer"
             href="https://drive.google.com/file/d/1_Qaf4p9jlVYzEFA4lYgvgIFdfvG2_XJQ/view?usp=sharing"
             download
           >

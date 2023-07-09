@@ -3,6 +3,7 @@ import css from "../Images/CSS.png";
 import html from "../Images/HTML.png";
 import js from "../Images/JS.png";
 import jsx from "../Images/JSX.png";
+import firebase from "../Images/Firebase.png"
 import typescript from "../Images/Typescript.png";
 
 export default function TechStack() {
@@ -43,6 +44,12 @@ export default function TechStack() {
                 <img className="img-1" src={typescript} alt="Typescript Logo" />
               </figure>
               <span className="language_name">Typescript</span>
+            </div>
+            <div className="language">
+              <figure className="lang_image-wrapper">
+                <img className="img-1" src={firebase} alt="Firebase Logo" />
+              </figure>
+              <span className="language_name">Firebase</span>
             </div>
           </div>
         </div>
