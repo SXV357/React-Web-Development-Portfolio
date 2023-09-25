@@ -3,4 +3,3 @@ module.exports = function (api) {
       plugins: ['macros'],
     }
   }
-  

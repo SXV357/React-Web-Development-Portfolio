@@ -43,7 +43,7 @@ export default function Footer() {
             className="footer-social-link link-hover-white"
             target = "_blank"
             rel = "noreferrer"
-            href="https://drive.google.com/file/d/1_Qaf4p9jlVYzEFA4lYgvgIFdfvG2_XJQ/view?usp=sharing"
+            href="https://drive.google.com/file/d/1xt20NaRs4DCrI9is_qtG1geEsWPkB_I7/view?usp=sharing"
             download
           >
             Resume
